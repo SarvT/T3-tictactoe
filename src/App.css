@@ -1,6 +1,12 @@
+*{
+  padding:0;
+  margin:0;
+}
+
 .App {
   text-align: center;
 }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +41,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.Board{
+  padding: 2rem;
+}
+
+.square{
+  width:10rem;
+  height:10rem;
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 5rem;
+}
+
+.board-row{
+  margin: 0;
+  padding: 0;
 }
